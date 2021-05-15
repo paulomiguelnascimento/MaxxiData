@@ -1,15 +1,15 @@
 
-##    Listas todas as Pessoas
+LISTA TODAS PESSOAS
 1 - Serviço não deveria exibir Pagina 1 a 10? ao inves de 0 a 10?
 2 - CPF retornando no serviço com mascara "123.456.789/00", apresentar sem mascara ou ajustar mascara tirando a "/" deixando "123.456.789-00" ou simplismente "12345678900"
 3 - Serviço retornando CPF como Null Qual Validação o serviço pode fazer nesses casos?
 4 - Quando CPF não estiver Ativo/False qual validação o serviço pode fazer?
 
-Listas Pessoas Especificas
+LISTAS PESSOAS ESPECIFICAS
 1 - CPF retornado no serviço com mascara "123.456.789/00", apresentar sem mascara ou ajustar mascara tirando a "/" deixando "123.456.789-00" informar na documentaçao o uso da mascara;
 2 - Na request "Lista Pessoa Não Encontrada" no "headers" não possui o "Content-Type: application/json"
 
-Cadastrar uma Pessoa
+CADASTRAR UMA PESSOA
 1 - Especificar na documentação os tipos de código de erro.
 2 - Criar Request para Nome Obrigatório
 3 - Criar Request para data de nascimento obrigatória
@@ -19,22 +19,22 @@ Cadastrar uma Pessoa
 7 - No "curl --location --request GET 'http://localhost:8080/api/pessoas' \" apresenta "GET" quando deveria ser "POST"
 8 - Na Request "Cadastra Pessoa - CPF Não Encontrado" no "headers" não possui o "Content-Type: application/json"
 
-Retorna uma lista de receitas
+RETORNA UMA LISTA DE RECEITAS
 1 - Serviço não deveria exibir Pagina 1 a 10? ao inves de 0 a 10?
 2 - Na request "Lista Receita" no "headers" não possui o "Content-Type: application/json"
 
-Retorna uma lista especifica
+RETORNA UMA LISTA ESPECIFICA
 1 - Na request "Lista Receita" no "headers" não possui o "Content-Type: application/json"
 
-Retorna uma Receita Especifica
+RETORNA UMA RECEITA ESPECIFICA
 1 - Na request "Lista Receita" no "headers" não possui o "Content-Type: application/json"
 2 - Na request "Lista Receita - Registro Não Encontrado" no "headers" não possui o "Content-Type: application/json"
 
-Cadastrar Uma Receita
+CADASTRAR UMA RECEITA
 1 - Criar Request Para Validar o ID de uma Pessoa Que Nao Está Cadastrada
 2 - Na Api Cadastra Receita possui o campo PessoaID Deveria também possuir ReceitaID?
 
-Edita Receita
+EDITA RECEITA
 1 - Na request "Edita Receita" no "headers" não possui o "Content-Type: application/json"
 2 - Na request "Edita Receita Não Encontrada" no "headers" não possui o "Content-Type: application/json"
 ------------------------------------------------------------------------------##--------------------------
