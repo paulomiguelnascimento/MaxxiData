@@ -1,0 +1,249 @@
+P - VALIDAR RETORNO DE TODAS AS PESSOAS
+	P1 - Efetuar a Consulta
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema Retorna uma Lista de Pessoas devendo retornar até 10 registros
+
+P - VALIDAR RETORNO DE PESSOAS ESPECIFICAS
+	P1 - Efetuar a Consulta Informando Uma Pessoa Especifica
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema Retorna Apenas as Informações de Uma Pessoa
+
+P - CADASTRA UMA PESSOA
+	P1 - Informar Os Campos (Nome), (Data de Nascimento), (CPF), (Ativo), (Meta)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Cadastro realizado com sucesso
+
+N - CADASTRAR UMA PESSOA - VALIDAR NOME OBRIGATÓRIO
+	P1 - Informar Os Campos (Data de Nascimento), (CPF), (Ativo), (Meta)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o campo "Nome" não foi informado e apresenta mensagem
+
+N - CADASTRAR UMA PESSOA - VALIDAR NOME DA PESSOA SUPERIOR A 50 CARACTERES 
+	P1 - Informar No Campo "Nome" Um Valor Superior a 50 caracteres
+	P2 -  Informar os (Data de Nascimento), (CPF), (Ativo), (Meta)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o campo "Nome" possui um valor superior a 50 caracteres e apresenta mensagem
+
+N - CADASTRAR UMA PESSOA - VALIDAR DATA DE NASCIMENTO OBRIGATÓRIA
+	P1 - Informar Os Campos (Nome), (CPF), (Ativo), (Meta)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o campo "Data de Nascimento" não foi informado e apresenta mensagem
+
+N - CADASTRAR UMA PESSOA - DATA DE NASCIMENTO SUPERIOR A DATA ATUAL
+	P1 - No campo Data de Nascimento Informar uma Data Superior a Data Atual
+	P2 - Informar Os Campos (Nome), (CPF), (Ativo), (Meta)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que no campo "Data de Nascimento" Foi Informado um Valor Superior a Data Atual e Apresenta Mensagem
+
+N - CADASTRAR UMA PESSOA - VALIDAR CPF OBRIGATÓRIO
+	P1 - Informar Os Campos (Nome), (Data de Nascimento), (Ativo), (Meta)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o campo "CPF" não foi informado e apresenta mensagem
+
+N - CADASTRAR UMA PESSOA - CPF INVÁLIDO
+	P1 - Informar Os Campos (Nome), (Data de Nascimento), (Ativo), (Meta)
+	P2 - No Campo "CPF" Informar Valor Inválido
+	P3 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o "CPF" é inválido e apresenta a mensagem "O cpf informado não é válido"
+
+N - Cadastrar Uma Pessoa - VALIDAR CAMPO "ATIVO" OBRIGATÓRIO
+	P1 - Informar Os Campos (Nome), (Data de Nascimento),(Meta)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o campo "Ativo" não foi informado e apresenta mensagem
+
+P - CADASTRAR UMA PESSOA - VALIDAR CAMPO "ATIVO" COMO "TRUE"
+	P1 - Informar Os Campos (Nome), (Data de Nascimento),(Meta)
+	P2 - Informar no Campo "Ativo" o Valor "True"
+	P3 - Acionar o botão OK
+	Resultado Esperado:  Cadastro realizado com sucesso
+
+P - CADASTRAR UMA PESSOA - VALIDAR CAMPO "ATIVO" COMO "FALSE"
+	P1 - Informar Os Campos (Nome), (Data de Nascimento),(Meta)
+	P2 - Informar no Campo "Ativo" o Valor "False"
+	P3 - Acionar o botão OK
+	Resultado Esperado:  Cadastro realizado com sucesso
+
+N - CADASTRAR UMA PESSOA - VALIDAR CAMPO "META" OBRIGATÓRIO
+	P1 - Informar Os Campos (Nome), (Data de Nascimento) (Ativo)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o campo "Meta" não foi informado e apresenta mensagem
+
+N - CADASTRAR UMA PESSOA - VALIDAR CAMPO "META" IGUAL A ZERO
+	P1 - Informar Os Campos (Nome), (Data de Nascimento) (Ativo)
+	P2 - No campo "Meta" Informar o Valor Igual a Zero
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o campo "Meta" informado um valor igual a Zero e Apresenta Mensagem
+
+P - EDITAR UMA PESSOA
+	P1 - Informar Os Campos (Nome), (Data de Nascimento), (CPF), (Ativo), (Meta)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Edição realizada com sucesso
+
+N - EDITAR UMA PESSOA - VALIDAR NOME OBRIGATÓRIO
+	P1 - Informar Os Campos (Data de Nascimento), (CPF), (Ativo), (Meta)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o campo "Nome" não foi informado e apresenta mensagem
+
+N - EDITAR UMA PESSOA - VALIDAR NOME DA PESSOA SUPERIOR A 50 CARACTERES
+	P1 - Informar No Campo "Nome" Um Valor Superior a 50 caracteres
+	P2 -  Informar os (Data de Nascimento), (CPF), (Ativo), (Meta)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o campo "Nome" possui um valor superior a 50 caracteres e apresenta mensagem
+
+N - EDITA UMA PESSOA - VALIDAR DATA DE NASCIMENTO OBRIGATÓRIA
+	P1 - Informar Os Campos (Nome), (CPF), (Ativo), (Meta)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o campo "Data de Nascimento" não foi informado e apresenta mensagem
+
+N - EDITAR UMA PESSOA - DATA DE NASCIMENTO SUPERIOR A DATA ATUAL
+	P1 - No campo Data de Nascimento Informar uma Data Superior a Data Atual
+	P2 - Informar Os Campos (Nome), (CPF), (Ativo), (Meta)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que no campo "Data de Nascimento" Foi Informado um Valor Superior a Data Atual e Apresenta Mensagem
+
+N - EDITAR UMA PESSOA - VALIDAR CPF OBRIGATÓRIO
+	P1 - Informar Os Campos (Nome), (Data de Nascimento), (Ativo), (Meta)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o campo "CPF" não foi informado e apresenta mensagem
+
+N - CADASTRAR UMA PESSOA - VALIDAR CPF INVÁLIDO
+	P1 - Informar Os Campos (Nome), (Data de Nascimento), (Ativo), (Meta)
+	P2 - No Campo "CPF" Informar Valor Inválido
+	P3 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o "CPF" é inválido e apresenta a mensagem "O cpf informado não é válido"
+
+N - EDITAR UMA PESSOA - VALIDAR CAMPO "ATIVO" OBRIGATÓRIO
+	P1 - Informar Os Campos (Nome), (Data de Nascimento),(Meta)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o campo "Ativo" não foi informado e apresenta mensagem
+
+P - EDITAR UMA PESSOA - VALIDAR CAMPO "ATIVO" COMO "TRUE"
+	P1 - Informar Os Campos (Nome), (Data de Nascimento),(Meta)
+	P2 - Informar no Campo "Ativo" o Valor "True"
+	P3 - Acionar o botão OK
+	Resultado Esperado:  Cadastro realizado com sucesso
+
+P - EDITAR UMA PESSOA - VALIDAR CAMPO "ATIVO" COMO "FALSE"
+	P1 - Informar Os Campos (Nome), (Data de Nascimento),(Meta)
+	P2 - Informar no Campo "Ativo" o Valor "False"
+	P3 - Acionar o botão OK
+	Resultado Esperado:  Cadastro realizado com sucesso
+
+N - EDITAR UMA PESSOA - VALIDAR CAMPO "META" OBRIGATÓRIO
+	P1 - Informar Os Campos (Nome), (Data de Nascimento) (Ativo)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o campo "Meta" não foi informado e apresenta mensagem
+
+N - EDITAR UMA PESSOA - VALIDAR CAMPO "META" IGUAL A ZERO
+	P1 - Informar Os Campos (Nome), (Data de Nascimento) (Ativo)
+	P2 - No campo "Meta" Informar o Valor Igual a Zero
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o campo "Meta" informado um valor igual a Zero e Apresenta Mensagem
+
+P - VALIDAR RETORNO DE LISTA DE RECEITAS
+	P1 - Efetuar a Consulta
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema Retorna uma Lista com todas as Receitas devendo retornar até 10 registros
+  
+P - VALIDAR RETORNO DE RECEITA ESPECIFICA
+	P1 - Efetuar a Consulta Informando Uma Receita Especifica
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema Retorna Apenas as Informações de Uma Receita
+
+P - CADASTRAR UMA RECEITA
+	P1 - Informar Os Campos (PessoaId), (Data), (Valor)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Cadastro realizado com sucesso
+
+N - CADASTRAR UMA RECEITA - VALIDAR "PESSOAID" OBRIGATÓRIO
+	P1 - Informar Os Campos (Data) e (Valor)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o campo "PessoaID" não foi informado e apresenta mensagem
+
+N - CADASTRAR UMA RECEITA - VALIDAR "PESSOAID" NÃO CADASTRADO
+	P1 - Informar Os Campos  (Data) e (Valor)
+	P2 - No campo (PessoaId) Informar Uma Pessoa Não Cadastrada
+	Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o campo "PessoaID" Não Está Cadastrado e apresenta mensagem
+
+N - CADASTRAR UMA RECEITA - VALIDAR DATA OBRIGATÓRIA
+	P1 - Informar Os Campos (PessoaID) e (Valor)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o campo "Data" não foi informado e apresenta mensagem
+
+N - CADASTRAR UMA RECITA - VALIDAR "DATA" SUPERIOR QUE A DATA ATUAL
+	P1 - Informar Os Campos (PessoaID) e (Valor)
+	P2 - No campo "Data" Informar uma Data Superior a Data Atual
+	P3 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que no campo "Data" foi informado um valor superior a data atual e apresenta mensagem
+
+N - CADASTRAR UMA RECEITA - VALIDAR "VALOR" OBRIGATÓRIO
+	P1 - Informar Os Campos (PessoaID) e (Data)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o campo "Valor" não foi informado e apresenta mensagem
+
+N - CADASTRAR UMA RECEITA - VALIDAR "VALOR" IGUAL A ZERO
+	P1 - Informar Os Campos (PessoaID) e (Data)
+	P2 - No Campo (Valor) Informar Valor Igual a Zero
+	P3 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que no campo "Valor" foi informado um valor igual a zero e apresenta mensagem
+
+N - CADASTRAR UMA RECEITA - VALIDAR "VALOR" NEGATIVO
+	P1 - Informar Os Campos (PessoaID) e (Data)
+	P2 - No Campo (Valor) Informar Valor Negativo
+	P3 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que no campo "Valor" foi informado um valor negativo e apresenta mensagem
+
+P - EDITAR UMA RECEITA
+	P1 - Informar Os Campos (PessoaId), (Data), (Valor)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Edição realizada com sucesso
+
+N - EDITAR UMA RECEITA - VALIDAR "PESSOAID" OBRIGATÓRIO
+	P1 - Informar Os Campos (Data) e (Valor)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o campo "PessoaID" não foi informado e apresenta mensagem
+
+N - EDITAR UMA RECEITA - VALIDAR "PESSOAID" NÃO CADASTRADO
+	P1 - Informar Os Campos  (Data) e (Valor)
+	P2 - No campo (PessoaId) Informar Uma Pessoa Não Cadastrada
+	Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o campo "PessoaID" Não Está Cadastrado e apresenta mensagem
+
+N - EDITAR UMA RECEITA - VALIDAR "DATA" OBRIGATÓRIA
+	P1 - Informar Os Campos (PessoaID) e (Valor)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o campo "Data" não foi informado e apresenta mensagem
+
+N - EDITAR UMA RECEITA - VALIDAR "DATA" SUPERIOR QUE A DATA ATUAL
+	P1 - Informar Os Campos (PessoaID) e (Valor)
+	P2 - No campo "Data" Informar uma Data Superior a Data Atual
+	P3 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que no campo "Data" foi informado um valor superior a data atual e apresenta mensagem
+  
+N - EDITAR UMA RECEITA - VALIDAR "VALOR" OBRIGATÓRIO
+	P1 - Informar Os Campos (PessoaID) e (Data)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que o campo "Valor" não foi informado e apresenta mensagem
+
+N - EDITAR UMA RECEITA - VALIDAR "VALOR" IGUAL A ZERO
+	P1 - Informar Os Campos (PessoaID) e (Data)
+	P2 - No Campo (Valor) Informar Valor Igual a Zero
+	P3 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que no campo "Valor" foi informado um valor igual a zero e apresenta mensagem
+
+N - EDITAR UMA RECEITA - VALIDAR "VALOR" NEGATIVO
+	P1 - Informar Os Campos (PessoaID) e (Data)
+	P2 - No Campo (Valor) Informar Valor Negativo
+	P3 - Acionar o botão OK
+	Resultado Esperado: Sistema verifica que no campo "Valor" foi informado um valor negativo e apresenta mensagem
+
+P - DELETAR UMA RECEITA
+	P1 - Informar O Campo (PessoaId)
+	P2 - Acionar o botão OK
+	Resultado Esperado: Exclusão realizada com sucesso
+
+P - VALIDAR TOTALIZADORES
+	P1 - Consultar o Valor Ativo das Pessoas
+	P2 - Acionar o botão Procurar
+	Resultado Esperado: Sistema exibe os totalizadores corretamente.
